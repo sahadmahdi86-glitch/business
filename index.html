@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Re-Earth: Grow Green, Live Clean - Your e-commerce platform for home gardening products and services.">
+    <title>Re-Earth - Home</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="logo">🌿 Re-Earth</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="doctor.html">Consult Doctor</a></li>
+                <li><a href="ai-agent.html">AI Agent</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html">Cart (<span id="cart-count">0</span>)</a></li>
+            </ul>
+            <button id="dark-mode-toggle">🌙</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Re-Earth – Grow Green, Live Clean</h1>
+                <p>Empower your home garden with sustainable products and expert guidance.</p>
+                <div class="cta-buttons">
+                    <a href="shop.html" class="btn-primary">Shop Now</a>
+                    <a href="doctor.html" class="btn-secondary">Consult a Doctor</a>
+                    <a href="ai-agent.html" class="btn-secondary">Ask AI Agent</a>
+                </div>
+            </div>
+            <img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800" alt="Green garden hero image" class="hero-image">
+        </section>
+
+        <section class="categories">
+            <h2>Shop by Category</h2>
+            <div class="category-grid">
+                <div class="category-card"><a href="shop.html?category=seeds">🌱 Seeds</a></div>
+                <div class="category-card"><a href="shop.html?category=soil">🌍 Soil</a></div>
+                <div class="category-card"><a href="shop.html?category=fertilizers">🌿 Fertilizers</a></div>
+                <div class="category-card"><a href="shop.html?category=tools">🔧 Tools</a></div>
+                <div class="category-card"><a href="shop.html?category=pots">🏺 Pots</a></div>
+                <div class="category-card"><a href="shop.html?category=plants">🌳 Plants</a></div>
+            </div>
+        </section>
+
+        <section class="featured-products">
+            <h2>Featured Products</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=300" alt="Tomato Seeds">
+                    <h3>Tomato Seeds</h3>
+                    <p>$5.99</p>
+                    <button class="add-to-cart" data-id="1" data-name="Tomato Seeds" data-price="5.99">Add to Cart</button>
+                </div>
+                <!-- Add more similar cards -->
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <h2>What Our Customers Say</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial">"Re-Earth helped me start my first garden!" - User A</div>
+                <div class="testimonial">"AI Agent is a lifesaver for plant care." - User B</div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="newsletter">
+            <h3>Subscribe to Our Newsletter</h3>
+            <input type="email" placeholder="Your Email">
+            <button>Subscribe</button>
+        </div>
+        <p>&copy; 2023 Re-Earth. All rights reserved.</p>
+    </footer>
+
+    <button id="back-to-top">↑</button>
+    <script src="js/main.js"></script>
+    <script src="js/cart.js"></script>
+</body>
+</html>
